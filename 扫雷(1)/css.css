@@ -1,0 +1,146 @@
+header {
+    background-color:black;
+    color:white;
+    position: absolute;
+    text-align:center;
+    top: 0px;
+    padding:5px;
+    width:100%;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:pink ;
+
+}
+#b{
+    color:orange;
+}
+#time{
+    position: absolute;
+    text-align:center;
+    background-color:black;
+    color:white;
+    top: 0%;
+    left:35%;
+    width: 30%;
+    height:10%;
+}
+
+#gameover{
+    position: absolute;
+    text-align:center;
+    background-color:yellow;
+    color:red;
+    top: 30%;
+    left:35%;
+    width: 30%;
+    height:25%;
+    
+}
+#chongkai{
+    background-color:rgb(189, 189, 189) ;
+    position: absolute;
+    text-align:center;
+    top: 95%;
+    left:20%;
+    padding:5px;
+    padding:5px;
+    width:60%;
+    height:50px;
+
+}
+#advance{
+    background-color:gray ;
+    width:345px;
+    height:60px;
+    float:center;
+}
+#advance1{
+    background-color:gray ;
+    width:100px;
+    height:50px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+#advance2{
+    background-color:gray ;
+    width:100px;
+    height:50px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+#advance3{
+    background-color:gray ;
+    width:100px;
+    height:50px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+
+
+table{
+    border-collapse: collapse;
+
+}
+
+
+td{
+    border:#999 2px solid;
+    width:24px;
+    height:24px;
+    background-color:greenyellow;
+    color: greenyellow;
+    box-sizing:border-box;
+    position:relative;
+    user-select: none;
+    -webkit-user-select:none ;
+    -moz-user-select: none;
+    text-align: center;
+}
+td > .cell{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+td >.cell.clear0{
+    background-color:greenyellow;
+    color:purple;
+}
+td >.cell.clear1{
+    background-color:wheat;
+    color:rgb(8, 179, 8);
+}
+td >.cell.clear2{
+    background-color:wheat;
+    color:rgb(75, 75, 255);
+}
+td >.cell.clear3{
+    background-color:wheat;
+    color:rgb(173, 115, 6);
+}
+td >.cell.exploded{
+    background-color:black;
+    color:rgb(173, 115, 6);
+}
+table.exploded td{
+    background-color:red;
+    
+}
+#again td{
+    border:#999 2px solid;
+    width:24px;
+    height:24px;
+    background-color:greenyellow;
+    color: greenyellow;
+    box-sizing:border-box;
+    position:relative;
+}
